@@ -193,7 +193,7 @@ section{
 }
 
 /* ---------- EXTRA SMALL SCREEN STYLES ---------- */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 597px) {
     
     header, footer{
         background-color: var(--pink);
@@ -215,7 +215,7 @@ section{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 598px) {
 
     header, footer{
         background-color: var(--lime-green);
@@ -324,6 +324,20 @@ section{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
     /* img{
@@ -331,6 +345,24 @@ section{
         max-width: 300px;
     } */
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
