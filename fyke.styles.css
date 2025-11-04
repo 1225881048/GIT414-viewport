@@ -1,6 +1,61 @@
-/* YOUR NAME GOES HERE */
+/* Bronte Fyke */
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
+
+/* universal box sizing */
+html {
+  box-sizing: border-box;
+  font-size: 100%; /* Set consistent base font size */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* make images and embeds responsive */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* improve text rendering */
+body {
+  line-height: 1.5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+/* remove link underlines, restore on hover/focus */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* set form element styles to inherit fonts */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* consistent table layout */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 
 
 
@@ -30,11 +85,18 @@
 
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
+
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
-/* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #424242;
+    }
+}
+
+    /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 
 
