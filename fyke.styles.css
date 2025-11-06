@@ -215,7 +215,7 @@ section{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-@media only screen and (min-width: 598px) {
+@media only screen and (min-width: 620px) {
 
     header, footer{
         background-color: var(--lime-green);
@@ -285,7 +285,7 @@ section{
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-@media only screen and (min-width: 889px) {
+@media only screen and (min-width: 1024px) {
 
     header, footer{
         background-color: var(--lime-green);
@@ -324,51 +324,9 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
-/* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    /* img{
-        width: 300px;
-        max-width: 300px;
-    } */
-/* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1380px) {
 
     header, footer{
         background-color: var(--orange);
@@ -383,6 +341,11 @@ section{
     section{
         background-color: var(--blue-gray);
         color: var(--dark-gray);
+    }
+
+    img{
+        width: 300px;
+        max-width: 300px;
     }
 
     #one, #two{
